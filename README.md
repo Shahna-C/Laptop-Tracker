@@ -1,5 +1,5 @@
 # Laptop-Tracker
 Full-stack application utilizing :
-- Java
+- Java, TypeScript, JavaScript, HTML, CSS
 - Angular
 - OAuth
