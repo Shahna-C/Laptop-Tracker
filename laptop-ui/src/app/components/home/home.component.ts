@@ -11,9 +11,9 @@ import {Observable} from 'rxjs/'
 export class HomeComponent implements OnInit {
 
   models: string[] = [
-    'Globo MTB 29 Full Suspension', 
-    'Globo Carbon Fiber Race Series',
-    'Globo Time Trial Blade',
+    'Sony Vaio - Notebook', 
+    'Apple - Macbook Pro',
+    'Asus - ZenBook',
   ];
   laptopform: FormGroup;
   validMessage: string = "";

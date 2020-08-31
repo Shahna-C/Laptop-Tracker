@@ -1,7 +1,7 @@
-create schema if not exists  teedb;
-use teedb;
+create schema if not exists  laptopdb;
+use laptopdb;
 CREATE TABLE
-    tee
+    laptop
     (
         id BIGINT NOT NULL,
         contact BOOLEAN NOT NULL,
@@ -21,11 +21,11 @@ CREATE TABLE
         next_val BIGINT
     );
 
-INSERT INTO tee (id, contact, email, model, name, phone, serial_number, purchase_price)
-  VALUES (1, 1, 'jeff@bikes.com', 'Globo MTB 29 Full Suspension', 'Jeff Miller', '328-443-5555', 4419619200000, '1100');
-INSERT INTO tee (id, contact, email, model, name, phone, serial_number, purchase_price)
-  VALUES (2, 0, 'samantha@bikes.com', 'Globo Carbon Fiber Race Series', 'Samantha Davis', '448-397-5555', 4419619200000, '1999');
-INSERT INTO tee (id, contact, email, model, name, phone, serial_number, purchase_price)
-  VALUES (3, 1, 'dave@bikes.com', 'Globo Time Trial Blade', 'Dave Warren', '563-891-5555', 4419619200000, '2100');
+INSERT INTO laptop (id, contact, email, model, name, phone, serial_number, purchase_price)
+  VALUES (1, 1, 'jeff@bikes.com', 'Sony Vaio - Notebook', 'Jeff Miller', '328-443-5555', 4419619200000, '1100');
+INSERT INTO laptop (id, contact, email, model, name, phone, serial_number, purchase_price)
+  VALUES (2, 0, 'samantha@bikes.com', 'Apple - Macbook Pro', 'Samantha Davis', '448-397-5555', 4419619200000, '1999');
+INSERT INTO laptop (id, contact, email, model, name, phone, serial_number, purchase_price)
+  VALUES (3, 1, 'dave@bikes.com', 'Asus - ZenBook', 'Dave Warren', '563-891-5555', 4419619200000, '2100');
 
 INSERT INTO hibernate_sequence (next_val) VALUES (4);

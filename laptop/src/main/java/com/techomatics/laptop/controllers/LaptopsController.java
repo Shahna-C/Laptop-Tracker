@@ -18,7 +18,7 @@ import com.techomatics.laptop.models.Laptop;
 
 //RestController = payload communication should be done by JSON by default
 @RestController
-@RequestMapping("api/v1/tees")
+@RequestMapping("api/v1/laptops")
 public class LaptopsController {
 	
 	@Autowired
